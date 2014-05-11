@@ -2,7 +2,6 @@ class MoneyCalculator
 	
 	attr_accessor :total_cost
 	attr_accessor :total_change
-	attr_accessor :money
 
 	def initialize(ones, fives, tens, twenties, fifties, hundreds, five_hundreds, thousands)
 		@ones = ones.to_i*1

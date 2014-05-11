@@ -1,0 +1,11 @@
+<html>
+	<body>
+	<h1> <%= @status %> </h1>
+	<h1> <%= @fee %> </h1>
+	<h1> <%= @total_change %> </h1>
+
+	<p><% "1s #{@cash[:ones]} 5s #{@cash[:fives]} 10s #{@cash[:tens]} 20s #{@cash[:twenties]} 50s #{@cash[:fiffties]} 100s #{@cash[:hundreds]} 500s #{@cash[:five_hundreds]} 1000s #{@cash[:thousands]}" %></p>
+	
+	<a href="/products">Back to products</a>
+	</body>
+</html>

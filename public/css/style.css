@@ -1,0 +1,113 @@
+body{
+background-image: url('/images/wall.png');
+}
+
+h1 { 
+font-family: 'Lobster', Georgia, Times, serif; 
+font-size: 65px; 
+line-height: 80px;
+color: #161616;
+} 
+
+h6{ 
+font-family: 'Lobster', Georgia, Times, serif; 
+font-size: 25px; 
+line-height: 30px;
+text-align: left;
+} 
+
+li { 
+font-family: 'Cabin', Helvetica, Arial, sans-serif; 
+font-size: 17px; 
+line-height: 25px;
+}
+
+p{
+font-family: 'Cabin', Helvetica, Arial, sans-serif; 
+font-size: 20px; 
+line-height: 25px;
+}
+
+h4{
+text-align: right;
+font-family: 'Lobster', Georgia, Times, serif;
+font-size: 30px;
+color: #00bef2;
+}
+
+form h4 a{
+text-align: right;
+font-family: 'Lobster', Georgia, Times, serif;
+font-size: 30px;
+color: #00bef2;
+} 
+a:hover{
+text-decoration: none;
+text-shadow: 0 0 2px;
+}
+
+.banner{
+position: fixed;
+width: 100%;
+height: 320px;
+background-repeat: repeat-x;
+background-image: url('/images/roof.png');
+top:0;
+z-index: 1;
+}
+
+.navbar, .container{
+height: 30px;
+background-color: black;
+}
+
+.navbar-brand{
+padding-top: 0px;
+margin-top: 0px;
+padding-bottom: 5px;
+}
+
+#label{
+position: fixed;
+z-index: 2;
+vertical-align: middle;
+padding-top: 60px;
+padding-left: 30%;
+padding-right: 50%;
+}
+
+.col-sm-5{
+padding-top: 300px;
+padding-bottom: 40px;
+}
+
+.col-sm-4{
+padding-top: 400px;
+}
+
+.left-col{
+width: 100%;
+float: left;
+margin-top: 320px;
+margin: 10px;
+background: rgb(253,232,231);
+padding: 20px;
+border: 20px solid rgba(253,232,231,0.3);
+background-size: 45px;
+background-clip: padding-box;
+}
+
+.right-col{
+position: fixed;
+padding-left: 30px;
+}
+
+#window{
+width: 100%;
+}
+
+td p a span{
+text-align: left;
+font-size: 30px;
+color: #00bef2;
+}

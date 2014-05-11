@@ -1,0 +1,23 @@
+body{
+background-image: url('/images/wall.png');
+}
+
+.banner{
+width: 100%;
+height: 300px;
+background-image: url('/images/roof.png');
+}
+
+.navbar-header{
+background-color: black;
+}
+
+.row{
+padding-top: 400px;
+}
+
+
+
+img{
+width: 100%;
+}
